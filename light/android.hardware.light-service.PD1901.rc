@@ -1,4 +1,4 @@
-service vendor.light-default /system/bin/hw/android.hardware.light-service.V2026
+service vendor.light-default /system/bin/hw/android.hardware.light-service.PD1901
     class hal
     user system
     group system

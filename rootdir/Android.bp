@@ -26,3 +26,8 @@ prebuilt_etc {
     name: "fstab.mt6765",
     src: "etc/fstab.mt6765",
 }
+
+prebuilt_etc {
+    name: "fstab.mt6762",
+    src: "etc/fstab.mt6765",
+}

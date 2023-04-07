@@ -15,8 +15,8 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "android.hardware.light-service.V2026",
-    init_rc: ["android.hardware.light-service.V2026.rc"],
+    name: "android.hardware.light-service.PD1901",
+    init_rc: ["android.hardware.light-service.PD1901.rc"],
     srcs: ["main.cpp", "Light.cpp"],
     shared_libs: [
         "libhardware",

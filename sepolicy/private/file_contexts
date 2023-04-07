@@ -1,9 +1,6 @@
-# Kernel Power Off Charging (KPOC)
-/system/bin/kpoc_charger u:object_r:kpoc_charger_exec:s0
-
 # Lights
 /sys/devices/platform/leds-mt65xx/leds/lcd-backlight(/.*)? u:object_r:sysfs_leds:s0
-/system/bin/hw/android\.hardware\.light-service\.V2026    u:object_r:mtk_hal_light_exec:s0
+/system/bin/hw/android\.hardware\.light-service\.PD1901    u:object_r:mtk_hal_light_exec:s0
 
 # Vendor overlay
 /(product|system/product)/vendor_overlay/[0-9]+/etc(/.*)?      u:object_r:vendor_configs_file:s0
