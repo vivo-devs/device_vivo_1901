@@ -40,10 +40,6 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_USE_DYNAMIC_PARTITIONS := false
 PRODUCT_BUILD_SUPER_PARTITION := false
 
-# Fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service
